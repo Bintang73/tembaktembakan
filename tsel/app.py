@@ -39,15 +39,17 @@ def lodprint(s):
         sys.stdout.flush()
         time.sleep(7.0/90)
 
-semut=(gt+"""
- #####  ####### #     # #     # ####### 
-#     # #       ##   ## #     #    #    
-#       #       # # # # #     #    #    
- #####  #####   #  #  # #     #    #    
-      # #       #     # #     #    #    
-#     # #       #     # #     #    #    
- #####  ####### #     #  #####     #    
- =================================
+bintang=(gt+"""
+=======================================
+ TEMBAK PAKET BY BINTANG NUR PRADANA
+ MASIH DALAM TAHAP UJICOBA
+ BILA INGIN DI UPDATE TIAP HARI
+ FOLLOW ACCOUNT SOSMED SAYA DI BAWAH INI
+ 
+ IG: @bintang_nur_pradana
+ Fb: Bintang Nur Pradana
+ Yt: Bintang Nur Pradana
+ =======================================
 """)
 l="Harap tunggu.."
 
@@ -57,7 +59,7 @@ def main_menu():
     print(p+"Telkomsel Menu" +
         "\nPilih Salah Satu:"
         "\n  [1] Minta kode otp" + 
-        "\n  [2] coming soon" 
+        "\n  [2] COMING SOON!" 
     )
     choice = str(input(" ex:1👉 "))
     exec_menu(choice)
