@@ -55,7 +55,7 @@ l="Harap tunggu.."
 
 def main_menu():
     clear()
-    slowprints(semut)
+    slowprints(bintang)
     print(p+"Telkomsel Menu" +
         "\nPilih Salah Satu:"
         "\n  [1] Minta kode otp" + 
@@ -84,7 +84,7 @@ def menu_1():
 def menu_2():
     lodprint(l)
     clear()
-    print(semut)
+    print(bintang)
     print(m+"errrrrrrrrrroroorororororoororo")
     
 
