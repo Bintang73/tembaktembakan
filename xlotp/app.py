@@ -101,11 +101,22 @@ def menu_1():
     print (p+" 7.Kuota 700mb 10k")
     print (p+" 8.xtra 10GB 30day 59k")
     print (p+" 9.Axis Play 2GB Rp1 3Hr")
-    
+    print (p+" 10.Axis Play 3GB Rp1 3Hr")
+    print (p+" 11.Axis Play 6GB Rp1 3Hr")
+    print (p+" 12.Axis Play 9GB Rp1 3Hr")
+    print (p+" 13.Axis Play 12GB Rp1 3Hr")
+    print (p+" 14.Axis 1GB Rp.0 7Hr")
+    print (p+" 15.Axis 500MB Rp.0 7Hr")
+    print (p+" 16.Axis 500MB Rp.0 7Hr v2")
+    print (p+" 17.Axis 500MB Rp.0 14Hr")
+    print (p+" 18.Axis 500MB Rp.0 7Hr v2")
+    print (p+" 19.Axis 5GB Rp.0 30Hr")
+    print (p+" 20.Axis Bonus Younder Music")
+    print (p+" 21.Nelpon AXIS UNLIMITED 30Hr")
     print (p+" 0.Manual service id")
     pkt = str(input("Pilih Sesuai Keinginan >> "))
     
-    if pkt == '1':
+    elif pkt == '1':
         i = '8110577'
     elif pkt == '2':
         i = '8211010'
@@ -124,29 +135,29 @@ def menu_1():
     elif pkt == '9':
         i ='3212251'
     elif pkt == '10':
-        i =''
+        i ='3212252'
     elif pkt == '11':
-        i =''
+        i ='3212253'
     elif pkt == '12':
-        i =''
+        i ='3212254'
     elif pkt == '13':
-        i =''
+        i ='3212255'
     elif pkt == '14':
-        i =''
+        i ='3110086'
     elif pkt == '15':
-        i =''
+        i ='3212176'
     elif pkt == '16':
-        i =''
+        i ='3110085'
     elif pkt == '17':
-        i =''
+        i ='3110041'
     elif pkt == '18':
-        i =''
+        i ='3212226'
     elif pkt == '19':
-        i =''
+        i ='3212290'
     elif pkt == '20':
-        i =''
+        i ='3212183'
     elif pkt == '21':
-        i =''
+        i ='1110149'
     elif pkt == '0':
         i = str(input("Service ID Paket👉"))
     else:
