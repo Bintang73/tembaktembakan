@@ -57,10 +57,10 @@ l="Harap tunggu.."
 
 def main_menu():
     clear()
-    slowprints(semut)
+    slowprints(bintang)
     print(p+
-        "   Tembak Paket Mode Otp" +
-        "\nPilih Salah Satu:"
+        "   Tembak Tembakan Bintang" +
+        "\n Pilih Salah Satu:"
         "\n  [1] Menu Beli Paket" + 
         "\n  [2] Minta Otp Code" +
         "\n  [3] Menu utama"
@@ -84,14 +84,14 @@ def exec_menu(choice):
 def menu_1():
     lodprint(l)
     clear()
-    print(semut)
-    print(p+"Menu Beli Paket Xl")
-    msisdn = str(input("Masukan No 62xx 👉 "))
+    print(bintang)
+    print(p+"Menu Tembak Paket XL dan Axis")
+    msisdn = str(input("Masukan No Misal 62xx 👉 "))
     clear()
-    print(semut)
+    print(bintang)
     po = str(input(p+"Masukan Kode Otp 👉 "))
     clear()
-    print(semut)
+    print(bintang)
     print (p+" 1.Xtra Kuota 30GB Rp. 10.000")
     print (p+" 2.Xtra 3GB 30day 22.900 ")
     print (p+" 3.Xtra 5GB 30day 32.900 ")
@@ -174,7 +174,7 @@ def menu_1():
 def menu_2():
     lodprint(l)
     clear()
-    print(semut)
+    print(bintang)
     print(p+"Minta Kode Otp")
     msisdn = str(input("Masukan Nomor 62xx👉"))
     lodprint(l)
@@ -189,8 +189,8 @@ def menu_4():
     msisdn = str(input("Input your MSISDN >> "))
     xl = XL(msisdn)
     print(xl.reqPassword()['message'])
-    decision = str(input("Want to repeat the process [Y/N]? >> "))
-    menu_actions['main']() if(decision in ['N','n']) else menu_actions['3']()
+    decision = str(input("Want to repeat the process [Y/T]? >> "))
+    menu_actions['main']() if(decision in ['T','t']) else menu_actions['3']()
     return
 
 def menu_3():
