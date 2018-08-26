@@ -113,7 +113,7 @@ def menu_1():
     print (p+" 19.Axis 5GB Rp.0 30Hr")
     print (p+" 20.Axis Bonus Younder Music")
     print (p+" 21.Nelpon AXIS UNLIMITED 30Hr")
-    print (p+" 0.Manual service id")
+    print (p+" 00.Manual service id")
     pkt = str(input("Pilih Sesuai Keinginan >> "))
     
     elif pkt == '1':
@@ -158,7 +158,7 @@ def menu_1():
         i ='3212183'
     elif pkt == '21':
         i ='1110149'
-    elif pkt == '0':
+    elif pkt == '00':
         i = str(input("Service ID Paket👉"))
     else:
         print("Pilihan gak tercantum")
