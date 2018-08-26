@@ -116,7 +116,7 @@ def menu_1():
     print (p+" 00.Manual service id")
     pkt = str(input("Pilih Sesuai Keinginan >> "))
     
-    elif pkt == '1':
+    if pkt == '1':
         i = '8110577'
     elif pkt == '2':
         i = '8211010'
