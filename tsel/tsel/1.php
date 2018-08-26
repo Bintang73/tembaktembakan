@@ -15,13 +15,18 @@ function reqotp($no){
         flush();
     }
 
-print "\033[0;32m #####  ####### #     # #     # ####### 
-#     # #       ##   ## #     #    #    
-#       #       # # # # #     #    #    
- #####  #####   #  #  # #     #    #    
-      # #       #     # #     #    #    
-#     # #       #     # #     #    #    
- #####  ####### #     #  #####     #  \n Minta password tsel \n " ;
+print "\033[0;32m 
+=======================================
+ TEMBAK PAKET BY BINTANG NUR PRADANA
+ MASIH DALAM TAHAP UJICOBA
+ BILA INGIN DI UPDATE TIAP HARI
+ FOLLOW ACCOUNT SOSMED SAYA DI BAWAH INI
+ 
+ IG: @bintang_nur_pradana
+ Fb: Bintang Nur Pradana
+ Yt: Bintang Nur Pradana
+ =======================================
+\n Minta password tsel \n " ;
 echo " \033[36;1m Nomor 62xx: ";
 $nomor = trim(fgets(STDIN));
 $execute = reqotp($nomor);
