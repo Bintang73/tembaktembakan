@@ -57,7 +57,7 @@ def slowprint(s):
 def main_menu():
        clear()
        slowprint(W + '#'*45)
-       slowprint(W + '     -== '+gt+'Menu Termos Kumpul4semut'+W+' ==-')
+       slowprint(W + '     -== '+gt+'Menu Tembak Bintang Nur Pradana'+W+' ==-')
        slowprint(W + '#'*45)
        print(W + '# ' + str(time.strftime('%a, %d %B %Y')))
        print(W + '# Provider gsm Operator ' + C + str(os.popen('getprop gsm.operator.alpha').read().split('\n')[0]))
@@ -66,7 +66,7 @@ def main_menu():
        
        
        slowprint (gt+"Menu Pilihan:")
-       print (gt+"  ["+p+"1"+gt+"] "+p+"Tembak XL Work")
+       print (gt+"  ["+p+"1"+gt+"] "+p+"Tembak XL dan Axis Work")
        print (gt+"  ["+p+"2"+gt+"] "+p+"Telkomsel")
        print (gt+"  ["+p+"3"+gt+"] "+p+"Waktu")
        print (gt+"  ["+p+"0"+gt+"] "+p+"Keluar")
