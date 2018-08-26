@@ -41,15 +41,17 @@ def lodprint(s):
         sys.stdout.flush()
         time.sleep(7.0/90)
 
-semut=(gt+"""
- #####  ####### #     # #     # ####### 
-#     # #       ##   ## #     #    #    
-#       #       # # # # #     #    #    
- #####  #####   #  #  # #     #    #    
-      # #       #     # #     #    #    
-#     # #       #     # #     #    #    
- #####  ####### #     #  #####     #    
- =================================
+bintang=(gt+"""
+ =======================================
+ TEMBAK PAKET BY BINTANG NUR PRADANA
+ MASIH DALAM TAHAP UJICOBA
+ BILA INGIN DI UPDATE TIAP HARI
+ FOLLOW ACCOUNT SOSMED SAYA DI BAWAH INI
+ 
+ IG: @bintang_nur_pradana
+ Fb: Bintang Nur Pradana
+ Yt: Bintang Nur Pradana
+ =======================================
 """)
 l="Harap tunggu.."
 
@@ -57,7 +59,7 @@ def main_menu():
     clear()
     slowprints(semut)
     print(p+
-        "   Tembak Xl Mode Otp" +
+        "   Tembak Paket Mode Otp" +
         "\nPilih Salah Satu:"
         "\n  [1] Menu Beli Paket" + 
         "\n  [2] Minta Otp Code" +
@@ -98,7 +100,9 @@ def menu_1():
     print (p+" 6.Xtra 25GB 30day 102.900 ")
     print (p+" 7.Kuota 700mb 10k")
     print (p+" 8.xtra 10GB 30day 59k")
-    print (p+" 9.Manual service id")
+    print (p+" 9.Axis Play 2GB Rp1 3Hr")
+    
+    print (p+" 0.Manual service id")
     pkt = str(input("Pilih Sesuai Keinginan >> "))
     
     if pkt == '1':
@@ -118,6 +122,32 @@ def menu_1():
     elif pkt == '8':
         i ='8211183'
     elif pkt == '9':
+        i ='3212251'
+    elif pkt == '10':
+        i =''
+    elif pkt == '11':
+        i =''
+    elif pkt == '12':
+        i =''
+    elif pkt == '13':
+        i =''
+    elif pkt == '14':
+        i =''
+    elif pkt == '15':
+        i =''
+    elif pkt == '16':
+        i =''
+    elif pkt == '17':
+        i =''
+    elif pkt == '18':
+        i =''
+    elif pkt == '19':
+        i =''
+    elif pkt == '20':
+        i =''
+    elif pkt == '21':
+        i =''
+    elif pkt == '0':
         i = str(input("Service ID Paket👉"))
     else:
         print("Pilihan gak tercantum")
